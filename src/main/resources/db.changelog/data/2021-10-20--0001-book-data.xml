@@ -5,7 +5,7 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
 
-    <changeSet id="2022-05-20--0001-book-data"context="test" runOnChange="true" >
+    <changeSet id="2021-10-20--0001-book-data"context="test" runOnChange="true" >
         <!-- Наполняем данными из csv -->
         <loadData tableName="book" file="db.changelog/data/csv/2021-10-20--0001-book-data.csv"
                   separator=";"
